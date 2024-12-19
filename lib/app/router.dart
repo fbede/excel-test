@@ -1,5 +1,6 @@
 import 'package:excel_test/app/home.dart';
 import 'package:excel_test/app/menu.dart';
+import 'package:excel_test/app/question.dart';
 import 'package:excel_test/app/selection.dart';
 import 'package:excel_test/app/vs.dart';
 import 'package:go_router/go_router.dart';
@@ -27,6 +28,11 @@ final router = GoRouter(
       name: Routes.vs,
       builder: (_, __) => const VsScreen(),
     ),
+     GoRoute(
+      path: Routes.question,
+      name: Routes.question,
+      builder: (_, __) => const QuestionScreen(),
+    ),
   ],
 );
 
@@ -35,4 +41,5 @@ abstract final class Routes {
   static const menu = '/menu';
   static const selection = '/selection';
   static const vs = '/vs';
+  static const question = '/question';
 }

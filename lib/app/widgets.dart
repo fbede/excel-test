@@ -19,15 +19,16 @@ final bool showAll;
             ),
           Assets.images.leaderboard.image(),
         ],
-        ),
+      ),
     );
   }
 }
 
 class ContinueButton extends StatelessWidget{
 final void Function()? onPressed;
+final String? text;
 
-  const ContinueButton({super.key, this.onPressed});
+  const ContinueButton({super.key, this.onPressed, this.text,});
 
   @override
   Widget build(BuildContext context) {
@@ -41,7 +42,7 @@ final void Function()? onPressed;
           minimumSize: const Size(double.infinity, 44),
           shape: const RoundedRectangleBorder(borderRadius: BorderRadius.all(Radius.circular(8)))
         ), 
-        child: const Text('CONTINUE'),
+        child: Text(text ?? 'CONTINUE'),
         ),
     );
   }

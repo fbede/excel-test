@@ -38,6 +38,9 @@ class $AssetsImagesGen {
   /// File path: assets/images/coins.png
   AssetGenImage get coins => const AssetGenImage('assets/images/coins.png');
 
+  /// File path: assets/images/flag.png
+  AssetGenImage get flag => const AssetGenImage('assets/images/flag.png');
+
   /// File path: assets/images/game_logo_big.png
   AssetGenImage get gameLogoBig =>
       const AssetGenImage('assets/images/game_logo_big.png');
@@ -64,6 +67,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/icon.png
   AssetGenImage get icon => const AssetGenImage('assets/images/icon.png');
 
+  /// File path: assets/images/infocircle.png
+  AssetGenImage get infocircle =>
+      const AssetGenImage('assets/images/infocircle.png');
+
   /// File path: assets/images/information.png
   AssetGenImage get information =>
       const AssetGenImage('assets/images/information.png');
@@ -75,6 +82,10 @@ class $AssetsImagesGen {
   /// File path: assets/images/product-pic-1 2.png
   AssetGenImage get productPic12 =>
       const AssetGenImage('assets/images/product-pic-1 2.png');
+
+  /// File path: assets/images/repeatemusic.png
+  AssetGenImage get repeatemusic =>
+      const AssetGenImage('assets/images/repeatemusic.png');
 
   /// File path: assets/images/user1.png
   AssetGenImage get user1 => const AssetGenImage('assets/images/user1.png');
@@ -94,6 +105,7 @@ class $AssetsImagesGen {
         cITNLogo11,
         cardSurface,
         coins,
+        flag,
         gameLogoBig,
         gameLogoSmall,
         icon1,
@@ -102,9 +114,11 @@ class $AssetsImagesGen {
         icon4,
         icon5,
         icon,
+        infocircle,
         information,
         leaderboard,
         productPic12,
+        repeatemusic,
         user1,
         user2,
         vs

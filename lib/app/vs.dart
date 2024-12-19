@@ -21,7 +21,7 @@ class VsScreen extends StatelessWidget {
           const SizedBox(height: 16),
           _UserCard(_userInfo[1]),
           const SizedBox(height: 16),
-          const ContinueButton(),
+          ContinueButton(onPressed: () => context.pushNamed(Routes.question)),
         ],
       ),
     );
